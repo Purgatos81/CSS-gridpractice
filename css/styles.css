@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-        <head>
-            <title>Gridpractice</title>
-            <meta charset="UTF-8">
-            <meta name="description" content="info">
-            <meta name="wiewport" content="width=device-width, initial-scale=1.0">
-            <link href="css/styles.css" rel="stylesheet">
-            <link href="/*add font info here*/">
-        </head>
-        <body>
-            <header>
-            </header>
-            <main>
-            </main>
-            <footer>
+body {
+    background: lightblue;
+}
 
-            </footer>
-        </body>
-</html>
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+}
+
+.testgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
