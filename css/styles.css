@@ -1,15 +1,33 @@
-body {
-    background: lightblue;
-}
 
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: white;
+header {
+    background-color: lawngreen;
 }
 
 .testgrid {
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: 240px auto;
+    background-color: white;
+    padding: 10px;
+    margin: 0 0 12px 0;
+    column-gap: 50px;
+}
+
+.testgrid > div {
+    background-color: lightgrey;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#a {
+    grid-column: 1 / 3;
+}
+
+#b {
+    grid-row: 2 / 4;
+    background-color: royalblue;
 }
